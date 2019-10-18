@@ -107,7 +107,7 @@ img {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.showcase p{
+.showcase h3{
     font-size: 2rem;
     margin-top: 0;
     color: var(--light);
@@ -124,7 +124,7 @@ img {
 }
 
 .dp img {
-    border-radius: 20%;
+    border-radius: 10%;
 }
 
 .top-box .boxhead {
@@ -148,9 +148,14 @@ img {
 }
 
 .skills {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
     text-align: center;
     color: var(--light);
+}
+
+.btn:hover {
+    background-color: var(--light);
+    color: var(--dark);
 }
 
 .box {
@@ -202,6 +207,9 @@ img {
   color: #fff;
   border: none !important;
   border-radius: 0px 6px 6px 0px;
+}
+.submit:hover {
+    background-color: #ff447386;
 }
 input {
   box-shadow: 0px 0px 40px lightgray;
